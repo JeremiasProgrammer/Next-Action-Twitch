@@ -9,7 +9,7 @@ const ButtonForm = () => {
     return (
         <button
             type="submit"
-            className="border border-gray-400 rounded p-2 w-28 grid place-items-center"
+            className="border border-gray-400 bg-white rounded p-2 w-28 grid place-items-center font-black"
         >
             {pending ? (
                 <span className="block animate-spin">

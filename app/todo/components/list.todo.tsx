@@ -6,7 +6,8 @@ interface ListTodoProps {
 }
 
 const ListTodo = ({ todos }: ListTodoProps) => {
-    if (!todos.length) return <div>No todos</div>;
+    if (!todos.length)
+        return <div className="text-center text-2xl text-white">No todos</div>;
 
     return (
         <>

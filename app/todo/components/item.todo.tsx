@@ -23,7 +23,7 @@ const ItemTodo = ({ todo }: TodoProps) => {
     };
 
     return (
-        <div className="flex justify-between items-center border border-gray-400 p-2 rounded mb-2">
+        <div className="flex justify-between items-center border border-gray-400 p-2 rounded mb-2 bg-white">
             <span>{todo.title}</span>
             <button
                 onClick={() =>
